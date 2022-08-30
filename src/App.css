@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+.home-spacing{
+  margin-top: 200px;
+  margin-bottom: 415px;
+}
+
+img{
+  margin-top: 50px;
+  padding-bottom: 100px ;
+}
+
+.textfield{
+  padding-top: 100px;
+  background-color: rgb(241, 254, 255);
+  padding-bottom: 200px;
+}
+
+.spacing{
+  padding: 10px;
+}
+
+.btn-spacing{
+  padding-top: 20px; 
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+a:hover, a:active {
+  background-color: #5b69ff;
+  color: white;
+}
+
+.home_img{
+  margin-top: 100px;
+  max-width: 100%;
+  
+}
