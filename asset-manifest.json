@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Harman-preet-singh13/my_portfolio/static/css/main.bf499a4a.css",
-    "main.js": "/Harman-preet-singh13/my_portfolio/static/js/main.e650b4b9.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Harman-preet-singh13/my_portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Weather-app.gif": "/Harman-preet-singh13/my_portfolio/static/media/Weather-app.febe97f34e30866f8dbf.gif",
-    "static/media/calculator.gif": "/Harman-preet-singh13/my_portfolio/static/media/calculator.7d585f12338bb118edc9.gif",
-    "static/media/tik-tac-toe.gif": "/Harman-preet-singh13/my_portfolio/static/media/tik-tac-toe.9138246bccf1bf0cdc91.gif",
-    "static/media/home_page2.2.jpg": "/Harman-preet-singh13/my_portfolio/static/media/home_page2.2.a9c76bbbdfcfc5f304ef.jpg",
-    "index.html": "/Harman-preet-singh13/my_portfolio/index.html",
-    "main.bf499a4a.css.map": "/Harman-preet-singh13/my_portfolio/static/css/main.bf499a4a.css.map",
-    "main.e650b4b9.js.map": "/Harman-preet-singh13/my_portfolio/static/js/main.e650b4b9.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Harman-preet-singh13/my_portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.bf499a4a.css",
+    "main.js": "/static/js/main.17167545.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Weather-app.gif": "/static/media/Weather-app.febe97f34e30866f8dbf.gif",
+    "static/media/calculator.gif": "/static/media/calculator.7d585f12338bb118edc9.gif",
+    "static/media/tik-tac-toe.gif": "/static/media/tik-tac-toe.9138246bccf1bf0cdc91.gif",
+    "static/media/home_page2.2.jpg": "/static/media/home_page2.2.a9c76bbbdfcfc5f304ef.jpg",
+    "index.html": "/index.html",
+    "main.bf499a4a.css.map": "/static/css/main.bf499a4a.css.map",
+    "main.17167545.js.map": "/static/js/main.17167545.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf499a4a.css",
-    "static/js/main.e650b4b9.js"
+    "static/js/main.17167545.js"
   ]
 }
