@@ -1,7 +1,7 @@
 import React from 'react'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-
+import "./home.css"
 import home_page from "./home_page2.2.jpg"
 
 const darkTheme = createTheme({
