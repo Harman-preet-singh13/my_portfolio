@@ -6,7 +6,6 @@ import About from './componets/About';
 
 import Container from '@mui/material/Container';
 import Footer from './componets/Footer';
-import Footer2 from './componets/Footer2';
 import BacktoTop from './componets/BacktoTop';
 import ProjectIndex from './componets/ProjectIndex';
 
@@ -26,7 +25,7 @@ function App() {
       </Container>
       <BacktoTop />
       <Footer />
-      <Footer2 />
+      
     </div>
   );
 }

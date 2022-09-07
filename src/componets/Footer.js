@@ -8,6 +8,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
 
 
 
@@ -57,9 +58,17 @@ function Footer() {
 
 
                     </StyledToolbar>
-
-
                 </AppBar>
+                <div className="end-note">
+
+<Typography variant="h6"  component="div" gutterBottom>
+    THANKS FOR VISITING!!
+</Typography>
+
+<Typography variant="h6" component="div" gutterBottom>
+    Message me if you like my portfolio or have any suggestion.
+</Typography>
+</div>
             </ThemeProvider>
         </div>
     )
