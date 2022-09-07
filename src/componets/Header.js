@@ -6,10 +6,6 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import ArticleIcon from '@mui/icons-material/Article';
-import InfoIcon from '@mui/icons-material/Info';
-import PersonIcon from '@mui/icons-material/Person';
-import ContactPageIcon from '@mui/icons-material/ContactPage';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
@@ -44,13 +40,12 @@ export default function ButtonAppBar(props) {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
         <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500} className='header'>
-          <Button color="inherit">Harmanpreet Singh</Button>
+          <Button className='header' color="inherit">Harmanpreet Singh</Button>
         </Link>
       </Typography>
       <Divider />
       <List>
         <Toolbar>
-
           <Stack >
             <ListItem disablePadding>
               <ListItemButton sx={{ textAlign: 'center' }}>
@@ -103,21 +98,21 @@ export default function ButtonAppBar(props) {
               </IconButton>
 
               <Typography variant="h3" component="h6" sx={{ flexGrow: 1 }}>
-                <PersonIcon />
+                
                 <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500} className='header'>
                   <Button color="inherit">Harmanpreet Singh</Button>
                 </Link>
               </Typography>
               <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-              <ArticleIcon />
+              
               <Link activeClass="active" to="project-index" spy={true} smooth={true} offset={50} duration={500} className='header'>
                 <Button color="inherit" >Projects</Button>
               </Link>
-              <InfoIcon />
+              
               <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500} className='header'>
                 <Button color="inherit" >About</Button>
               </Link>
-              <ContactPageIcon />
+              
               <Link activeClass="active" to="footer" spy={true} smooth={true} offset={50} duration={500} className='header'>
                 <Button color="inherit" >contact</Button>
               </Link>

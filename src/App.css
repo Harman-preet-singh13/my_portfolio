@@ -72,8 +72,5 @@ a:link, a:visited {
   border-radius: 10px;
 }
 
-a:hover, a:active {
-  background-color: #5b69ff;
-  color: white;
-}
+
 

@@ -1,4 +1,6 @@
 import React from 'react'
+import "./Project.css"
+
 import { Link } from "react-scroll"
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
@@ -25,7 +27,7 @@ export default function ProjectIndex() {
                         1. Tic-Tac-Toe
                     </Grid>
                     <Grid item xs={4}>
-                        <Link to="tac-tac-toe" spy={true} smooth={true} offset={50} duration={600} >
+                        <Link to="tac-tac-toe" spy={true} smooth={true} offset={50} duration={600} className="project-link" >
 
                             <ArrowForwardIcon />
                             <Button color="inherit">Click here </Button>
@@ -39,7 +41,7 @@ export default function ProjectIndex() {
                         2. Calculator
                     </Grid>
                     <Grid item xs={4}>
-                        <Link to="calculator" spy={true} smooth={true} offset={50} duration={500} >
+                        <Link to="calculator" spy={true} smooth={true} offset={50} duration={500} className="project-link">
 
                             <ArrowForwardIcon />
                             <Button color="inherit">Click here </Button>
@@ -53,7 +55,7 @@ export default function ProjectIndex() {
                         3. Weather Application
                     </Grid>
                     <Grid item xs={4}>
-                        <Link to="weather-app" spy={true} smooth={true} offset={50} duration={500} >
+                        <Link to="weather-app" spy={true} smooth={true} offset={50} duration={500} className="project-link">
 
                             <ArrowForwardIcon />
                             <Button color="inherit">Click here </Button>
